@@ -1,0 +1,51 @@
+{"intents": [
+        {
+                "tag": "greeting",
+                "patterns": ["Hi", "Hey", "Hello", "How are you?", "Good day", "Is anyone there?"],
+                "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help you?"],
+                "context": [""]
+        },
+        {
+                "tag": "goodbye",
+                "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+                "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+                "context": [""]
+        },
+        {
+                "tag": "thanks",
+                "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+                "responses": ["Happy to help!", "Any time!", "My pleasure"],
+                "context": [""]
+        },
+        {
+                "tag": "noanswer",
+                "patterns": [],
+                "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+                "context": [""]
+        },
+        {
+                "tag": "options",
+                "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+                "responses": ["I can guide you through issues related to Moodle, Zoom, Respondus, Email and Portal", "Offering support for diverse issues relating to Moodle, Zoom, Respondus, Email and Portal"],
+                "context": [""]
+        },
+        {
+                "tag": "hours",
+                "patterns": ["What hours are you open?", "What are your hours?", "When are you available?" ],
+                "responses": ["We're open every week day 8am-5pm", "Our hours are 8am-5pm for week days"],
+                "context": [""]
+        },
+        {
+                "tag": "respondus",
+                "patterns": ["What is lockdown-browser?", "Why lockdown browser?", "What is respondus?"],
+                "responses": ["LockDown Browser® is a custom browser that locks down the testing environment within a learning management system.", "LockDown Browser is the “gold standard” for securing online exams in classrooms or proctored environments."],
+                "context": [""]
+        },
+        {
+                "tag": "moodle_login",
+                "patterns": ["I cannot login to moodle", "my moodle is not working"],
+                "responses": ["Please reset your password and check your school email"],
+                "context": [""]
+        }
+   ]
+}
